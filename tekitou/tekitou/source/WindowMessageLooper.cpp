@@ -1,9 +1,9 @@
-#include "MessageLooper.h"
+#include "WindowMessageLooper.h"
 #include <Windows.h>
 
-MessageLooper* MessageLooper::_instance = nullptr;
+WindowMessageLooper* WindowMessageLooper::_instance = nullptr;
 
-void MessageLooper::MessageLoop(std::function<void()> func) {
+void WindowMessageLooper::MessageLoop(std::function<void()> func) {
   MSG message;
   while (_loop_frag) {
     if (PeekMessage(&message, nullptr, 0, 0, PM_REMOVE)) {

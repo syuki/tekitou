@@ -17,7 +17,7 @@
     <ClCompile Include="source\SingleWindowCreator.cpp">
       <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="source\MessageLooper.cpp">
+    <ClCompile Include="source\WindowMessageLooper.cpp">
       <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>
@@ -28,7 +28,7 @@
     <ClInclude Include="source\CreateWindowExParameter.h">
       <Filter>source</Filter>
     </ClInclude>
-    <ClInclude Include="source\MessageLooper.h">
+    <ClInclude Include="source\WindowMessageLooper.h">
       <Filter>source</Filter>
     </ClInclude>
   </ItemGroup>
