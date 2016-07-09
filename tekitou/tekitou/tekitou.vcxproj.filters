@@ -10,4 +10,26 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SingleWindowCreator.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MessageLooper.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\SingleWindowCreator.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CreateWindowExParameter.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MessageLooper.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
